@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1F6A4B21F57EF6700DE6ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6A4B11F57EF6700DE6ACB /* AppDelegate.swift */; };
-		D1F6A4B41F57EF6700DE6ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6A4B31F57EF6700DE6ACB /* ViewController.swift */; };
+		D1F6A4B41F57EF6700DE6ACB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6A4B31F57EF6700DE6ACB /* MainVC.swift */; };
 		D1F6A4B71F57EF6700DE6ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F6A4B51F57EF6700DE6ACB /* Main.storyboard */; };
 		D1F6A4BA1F57EF6800DE6ACB /* MedsReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1F6A4B81F57EF6800DE6ACB /* MedsReminder.xcdatamodeld */; };
 		D1F6A4BC1F57EF6800DE6ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F6A4BB1F57EF6800DE6ACB /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		D1F6A4AE1F57EF6700DE6ACB /* MedsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F6A4B11F57EF6700DE6ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1F6A4B31F57EF6700DE6ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1F6A4B31F57EF6700DE6ACB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D1F6A4B61F57EF6700DE6ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1F6A4B91F57EF6800DE6ACB /* MedsReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedsReminder.xcdatamodel; sourceTree = "<group>"; };
 		D1F6A4BB1F57EF6800DE6ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D1F6A4B11F57EF6700DE6ACB /* AppDelegate.swift */,
-				D1F6A4B31F57EF6700DE6ACB /* ViewController.swift */,
+				D1F6A4B31F57EF6700DE6ACB /* MainVC.swift */,
 				D1F6A4B51F57EF6700DE6ACB /* Main.storyboard */,
 				D1F6A4BB1F57EF6800DE6ACB /* Assets.xcassets */,
 				D1F6A4BD1F57EF6800DE6ACB /* LaunchScreen.storyboard */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F6A4B41F57EF6700DE6ACB /* ViewController.swift in Sources */,
+				D1F6A4B41F57EF6700DE6ACB /* MainVC.swift in Sources */,
 				D1F6A4BA1F57EF6800DE6ACB /* MedsReminder.xcdatamodeld in Sources */,
 				D1F6A4B21F57EF6700DE6ACB /* AppDelegate.swift in Sources */,
 			);
@@ -520,6 +520,7 @@
 				D1F6A4DB1F57EF6800DE6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1F6A4DC1F57EF6800DE6ACB /* Build configuration list for PBXNativeTarget "MedsReminderTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				D1F6A4DE1F57EF6800DE6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1F6A4DF1F57EF6800DE6ACB /* Build configuration list for PBXNativeTarget "MedsReminderUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				D1F6A4E11F57EF6800DE6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
